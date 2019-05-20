@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>0x21106</title>
+</head>
+<body style="margin:0; padding:0; background-color:#191928;">
+    
+    
+    <div id="background-image"></div>
+    
+    
+    
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+    <script src="parallax.js"></script>
+    <script>
+        const bg = new parallax(true);
+        bg.set({
+            element: "#background-image",
+            url: "image.jpg",
+            repeat: "no-repeat",
+            position: "center",
+            size: "cover",
+            speed: 15,
+            animation: true
+        });
+    </script>
+</body>
+</html>
